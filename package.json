@@ -1,0 +1,32 @@
+{
+  "name": "create-next-redux-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "next",
+    "react",
+    "next.js",
+    "create-next-redux-app",
+    "create-react-app",
+    "redux",
+    "scaffold"
+  ],
+  "author": "thienJs",
+  "license": "MIT",
+  "bin": {
+    "create-next-redux-app": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1",
+    "ms": "^2.1.1",
+    "ora": "^3.2.0",
+    "promise": "^8.0.2",
+    "shelljs": "^0.8.3"
+  }
+}
